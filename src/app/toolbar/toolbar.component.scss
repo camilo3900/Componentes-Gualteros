@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #3f067c;
+    padding: 10px;
+    height: var(--toolbar-height);
+    align-items: center;
+    border-bottom: 2px solid black;
+    #img-toolbar{
+
+       img{
+        border-radius: 35px;
+        width: 50px;
+        height: 50px;
+       }
+       
+
+    }
+
+    .opciones-toolbar{
+        margin-right: 200px;
+        height: auto;
+
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            li{
+                list-style: none;
+                a{
+                    color: black;
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-weight: 700;
+                 
+                }
+                a:hover{
+                    color: aliceblue;
+                }
+            }
+            
+        }
+
+    }
+}

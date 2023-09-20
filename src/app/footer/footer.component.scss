@@ -1,0 +1,26 @@
+footer{
+    border-top: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: fixed;
+    height: 150px;
+    bottom: 0px;
+    width: 100vw;
+    padding: 1.5rem;
+    background-color: #3f067c;
+
+    .bloque-footer{
+
+        font-size: 22px;
+
+        li{
+            list-style: none;
+            color: white;
+            
+        }
+
+    }
+}
